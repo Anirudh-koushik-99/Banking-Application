@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Transfer Error</title>
+</head>
+<body>
+	<h1>Some Error occoured while transferring. Kindly try again</h1>
+	<h1>fill the details below to transfer amount</h1>
+	<form action="/BankingApplication2/TransferValidation">
+		<table>
+			<tr>
+				<td><label>To Account Number : </label></td>
+				<td><input type="text" name="taccno"
+					placeholder="Enter the account number"></td>
+			</tr>
+			<tr>
+				<td><label>Amount :</label></td>
+				<td><input type="text" name="amount"
+					placeholder="Enter the amount"></td>
+			</tr>
+			<tr>
+				<td><label>Password :</label></td>
+				<td><input type="password" name="pass"
+					placeholder="Enter the password"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Transfer"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
